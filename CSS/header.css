@@ -1,5 +1,5 @@
 header{
-    background-color: #863A6F;
+    background-color: #2D033B;
     padding: 25px;
 
     display: flex; /*deixa o 'h1' e a 'nav' um ao lado do outro*/
@@ -24,7 +24,7 @@ header nav a{
 }
 
 header a{
-    color: #FFADBC;
+    color: #C147E9;
 }
 
 header a:hover{
