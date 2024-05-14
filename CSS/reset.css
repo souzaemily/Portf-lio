@@ -1,0 +1,23 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+body{
+    width: 100%;
+    height: 100vh; /*vh: view height*/
+    background-color: #975C8D;
+    color: #fff;
+
+    display: flex;
+    flex-direction: column; /*aplica nas 3 tags princilais que tão no body*/
+    justify-content:space-between; /* para separar header, do main e do footer. Deixando um espaçamento igual*/
+}
+
+a{
+    text-decoration: none;
+    color: #fff;
+    transition: 0.2s ease-in-out; /*transição na entrada e na saída*/
+}

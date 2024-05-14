@@ -1,0 +1,66 @@
+/*Para que a página se ajuste a várias telas*/
+/*media queries*/
+@media (max-width:1200px) { /*é um BREAKPOINT de 1200 para baixo*/
+    main{
+        width: 100%;
+        flex-direction: column; /*já coloca a foto para baixo*/
+        align-items: center;
+        justify-content: center;
+    }
+
+    .main-section{
+        width: 100%;
+        align-items: center;
+
+        margin-bottom: 15%; /*distanciando a foto do texto*/
+    }
+
+    main .main-section .text, .techs{
+        text-align: center; 
+    }
+
+    main .main-section .text p{
+        width: 100%;   /*ajustando o parágrafo no meio*/
+        font-size: 0.9em;
+    }
+
+    main .techs .cards-container, .main-section .text p{
+        margin-top: 32px;
+    }
+}
+
+@media (max-width: 700px) {
+    header{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+        text-align: center;
+    }
+
+    header h1{
+        font-size: 2em;
+    }
+
+    header nav{
+        margin-top: 24px;
+    }
+
+    header nav a{
+        font-size: 1.5em;  /*tamanho dos ícones de redes sociais*/
+    }
+
+    main .techs .cards-container .card{  /*tamanho das imagens*/
+        width: 60px;
+        height: 60px;
+    }
+
+    main .main-section .text h2, .main-section .techs h2{  /*tamanho dos títulos*/
+        font-size: 1.8em;
+    }
+
+    main figure img{  /*tamanho da minha foto*/
+        width: 250px;
+        height: 250px;
+    }
+}
