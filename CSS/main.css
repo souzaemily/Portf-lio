@@ -55,7 +55,7 @@ main .techs .cards-container .card img{
 }
 
 main .techs .cards-container .card:hover{
-    box-shadow: 0px 0px 8px #eb73b5;
+    box-shadow: 0px 0px 15px #E5B8F4;
 }
 
 /*------------FIGURE------------*/
@@ -72,11 +72,11 @@ main figure img{
     border-radius: 200px;
 
     margin-bottom: 6%;
-    border: 4px #eb73b5 solid;
+    border: 4px #E5B8F4 solid;
     transition: 0.2s ease-in-out;
     cursor: pointer;
 }
 
 main figure img:hover{
-    box-shadow: 0px 0px 8px #eb73b5;
+    box-shadow: 0px 0px 15px #E5B8F4;
 }
